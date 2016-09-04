@@ -18,7 +18,6 @@
 			
 			    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
-        	        <h1>7 333333333333 <a href="#" title="">предложений333333333</a><br />от 79 000 <a href="#" title="">компаний</a> в России</h1>
 		
 			        <form class="" action="" role="form">  
 	            
