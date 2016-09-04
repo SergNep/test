@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+/* Табы */
+
+.tabs, .tabs2 {
+    margin-bottom: 30px;
+    }
+	
+.featured-products .tabs, .featured-products .tabs2 {
+    margin-top: 0; 
+    margin-bottom: 0; 
+	}
+	
+.tabs li, .tabs2 li {
+	padding: 6px 12px;
+	color: #00c047;
+	cursor: pointer;
+	border-top: 1px solid #00c047; 
+	border-right: 1px solid #00c047; 
+	border-bottom: 1px solid #00c047; 
+	text-align: center; 
+    font-family: 'DINProMedium';
+    }
+	
+.tabs li:first-child, .tabs2 li:first-child { 
+	border-top: 1px solid #00c047; 
+	border-right: 1px solid #00c047; 
+	border-bottom: 1px solid #00c047; 
+	border-left: 1px solid #00c047;  
+    }
+	
+.tabs li:hover, .tabs2 li:hover {
+	color: #333333;
+    }
+
+.tabs li.current, .tabs2 li.current {
+	color: #FFFFFF;
+	background: #00c047;
+    }
+
+.box, .box2 { 
+	display: none;  
+    }
+ 
+.box.visible, .box2.visible{
+	display: block;
+    } 
+	
+@media (max-width: 480px) {
+
+.tabs li, .tabs2 li {
+    width: 100%;
+	border-top: none; 
+	border-right: 1px solid #00c047; 
+	border-left: 1px solid #00c047; 
+	border-bottom: 1px solid #00c047;  
+    }
+	
+.tabs li:first-child, .tabs2 li:first-child { 
+    width: 100%;
+	border-top: 1px solid #00c047; 
+	border-right: 1px solid #00c047; 
+	border-bottom: 1px solid #00c047; 
+	border-left: 1px solid #00c047;  
+    }
+
+}

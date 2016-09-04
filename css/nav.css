@@ -1,0 +1,178 @@
+@charset "utf-8";
+
+/* Навигация */
+
+nav .navbar-nav > li > a { /* РАЗДЕЛЫ */ 
+    font-weight: normal;
+    font-family: 'DINProMedium';
+    color: #000000;
+	font-size: 18px;
+    }
+
+nav .dropdown-menu { 
+    background-color: #f9f9f9;
+    border: none !important; 
+    border-radius: none !important; 
+    }
+
+nav .dropdown-menu > li {
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 20%;
+    }
+ 	
+.mega-dropdown {
+  position: static !important;
+}
+
+.mega-dropdown-menu {
+    padding: 20px 0px;
+    width: 100%;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.mega-dropdown-menu > li > ul {
+  padding: 0;
+  margin: 0;
+}
+
+.mega-dropdown-menu > li > ul > li {
+  list-style: none;
+}
+
+.mega-dropdown-menu > li > ul > li > a {
+  display: block;
+  color: #222;
+  padding: 3px 5px;
+    font-weight: normal;
+    font-family: 'DINProMedium';
+}
+
+.mega-dropdown-menu > li ul > li > a:hover,
+.mega-dropdown-menu > li ul > li > a:focus {
+  text-decoration: none;
+  color: #00c047;
+}
+
+.mega-dropdown-menu .dropdown-header { 
+    display: block;
+    font-size: 18px;  
+	font-family: 'DINProLight';
+	margin: 0 0 5px 0 !important;
+	padding: 0 !important;
+	min-height: 64px;
+	border-bottom: 1px solid #f1f1f1;
+    }
+
+.mega-dropdown-menu .dropdown-header a > img {
+    float: left; 
+    }
+
+.mega-dropdown-menu .dropdown-header a > span {
+    display: block;
+	margin-left: 34px;
+    }
+
+@media (max-width: 1200px) { 
+
+
+
+}
+ 
+nav .navbar-right .fa {
+    display: none;
+    }
+
+@media (max-width: 992px) { 
+
+nav .dropdown-menu > li {
+    padding-bottom: 20px;
+    width: 100%; 
+    }
+	
+.mega-dropdown-menu > li > ul { 
+    display: block;
+	float: left;
+	width: 100%;
+	overflow: hidden;
+	}
+	
+.mega-dropdown-menu > li > ul > li { 
+    display: block;
+	overflow: hidden;
+	min-height: auto;
+    padding: 0 5px;
+    float: left; 
+	font-size: 12px; 
+	position: relative;
+	z-index: 9999;
+    }
+	
+.mega-dropdown-menu .dropdown-header {
+    font-size: 16px; 
+    padding: 0 10px 0 0;
+    float: left;
+	width: auto;
+	min-width: 130px;
+	border-right: 1px solid #f1f1f1;
+	border-bottom: none; 
+	margin: 0 10px 15px 0; 
+    }
+	
+.mega-dropdown-menu .dropdown-header a > img {
+    display: none;
+    }
+
+.mega-dropdown-menu .dropdown-header a > span { 
+	margin-left: 0;
+    }
+	
+/***/
+
+nav .navbar-right {
+    margin: 20px -15px 0 0;
+	}
+
+nav .navbar-right span {
+    display: none !important;
+    }
+
+nav .navbar-right .fa {
+    display: block !important;
+    } 
+
+}
+ 	
+@media (max-width: 768px) {
+
+nav .navbar-nav > li > a:hover { /* РАЗДЕЛЫ */ 
+	color: #00c047;  
+    }
+	
+nav .navbar-right .fa {
+    }
+ 	
+/***/
+
+nav .navbar-right span {
+    display: block !important;
+    }
+
+nav .navbar-right .fa {
+    display: none !important;
+    }
+
+nav .navbar-right .btn {
+    margin-bottom: 20px;
+    }
+	
+}
+
+nav .navbar-right .fa-cog {
+    display: block !important;
+	line-height: 14px;
+    }

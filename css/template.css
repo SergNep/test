@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+/* Шаблон */
+
+#wrapper {
+    display: table;
+	width: 100%; 
+	height: 100%;
+	margin: 0 auto;
+	overflow: hidden; 
+    }
+
+.w1 {
+	width: 100%;
+	display: table-row;
+	position: relative;
+	-moz-box-sizing: border-box; /*Firefox 1+*/ /*Игнорим отступы и бордеры для ширины в 100%*/
+	-webkit-box-sizing: border-box; /*Safari 3+, Chrome 1+*/
+	box-sizing: border-box; /*Opera 7+, IE8+*/
+    }
+	
+#header {
+    margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	background: #FFFFFF;
+	position: static;
+	z-index: 999;
+	}
+ 
+#footer {
+	width: 100%;
+	overflow: hidden; /*for FF on Windows 7*/
+	display: table-footer-group;
+	background: #222222;
+	color: #FFFFFF; 
+    }
+
+#footer .container { 
+	padding-top: 50px;
+	padding-bottom: 30px;
+    }
+
+#footer .container h3 {
+    margin-bottom: 10px;
+    }
+
+#footer .container ul li { 
+    }
+
+#footer a { 
+	color: #00c047;
+    }
+
+#footer a:hover { 
+	color: #d35400;
+    }
+	
+.footer-in {
+	height: 1%;
+	display: table-row;
+    } 

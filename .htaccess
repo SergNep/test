@@ -1,0 +1,24 @@
+#Ставим кодировку utf-8
+AddDefaultCharset utf-8
+php_value default_charset "utf-8"
+PHP_VALUE default_charset utf-8
+
+#Защищаем .htaccess файл
+<files .htaccess="">
+order allow,deny
+deny from all
+</files>
+
+#Убираем расширение файла из URL
+RewriteEngine On
+RewriteRule ^(([^/]+/)*[^.]+)$ /$1.php [L]
+
+#Убирает www
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www\.(.*) [NC]
+RewriteRule ^/?(.*) http://%1/$1 [L,R=permanent]
+
+#Своя стартовая страница
+DirectoryIndex index.php
+
+

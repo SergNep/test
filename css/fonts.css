@@ -1,0 +1,52 @@
+@charset "utf-8";
+ 
+/* DINPro */
+
+@font-face {
+    font-family: 'DINProLight';
+    src: url('fonts/dinpro/DINProLight.eot');
+    src: url('fonts/dinpro/DINProLight.eot') format('embedded-opentype'),
+         url('fonts/dinpro/DINProLight.woff2') format('woff2'),
+         url('fonts/dinpro/DINProLight.woff') format('woff'),
+         url('fonts/dinpro/DINProLight.ttf') format('truetype'),
+         url('fonts/dinpro/DINProLight.svg#DINProLight') format('svg');
+	font-weight: normal;
+	font-style: normal; 
+}
+
+@font-face {
+    font-family: 'DINProRegular';
+    src: url('fonts/dinpro/DINProRegular.eot');
+    src: url('fonts/dinpro/DINProRegular.eot') format('embedded-opentype'),
+         url('fonts/dinpro/DINProRegular.woff2') format('woff2'),
+         url('fonts/dinpro/DINProRegular.woff') format('woff'),
+         url('fonts/dinpro/DINProRegular.ttf') format('truetype'),
+         url('fonts/dinpro/DINProRegular.svg#DINProRegular') format('svg');
+	font-weight: normal;
+	font-style: normal; 
+}
+
+@font-face {
+    font-family: 'DINProMedium';
+    src: url('fonts/dinpro/DINProMedium.eot');
+    src: url('fonts/dinpro/DINProMedium.eot') format('embedded-opentype'),
+         url('fonts/dinpro/DINProMedium.woff2') format('woff2'),
+         url('fonts/dinpro/DINProMedium.woff') format('woff'),
+         url('fonts/dinpro/DINProMedium.ttf') format('truetype'),
+         url('fonts/dinpro/DINProMedium.svg#DINProMedium') format('svg');
+	font-weight: normal;
+	font-style: normal; 
+}
+
+@font-face {
+    font-family: 'DINProBold';
+    src: url('fonts/dinpro/DINProBold.eot');
+    src: url('fonts/dinpro/DINProBold.eot') format('embedded-opentype'),
+         url('fonts/dinpro/DINProBold.woff2') format('woff2'),
+         url('fonts/dinpro/DINProBold.woff') format('woff'),
+         url('fonts/dinpro/DINProBold.ttf') format('truetype'),
+         url('fonts/dinpro/DINProBold.svg#DINProBold') format('svg');
+	font-weight: normal;
+	font-style: normal; 
+}
+
